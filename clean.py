@@ -19,19 +19,15 @@ P1_df = pd.read_csv('data/Olympic_Data.csv')
 P2_df = pd.read_csv('data/Population.csv')
 
 # drop unneeded columns
-P2_df=P2_df.drop(['Rank', 'Country/Territory', 'Captial', 'Continent'], axis =1)
+P2_df=P2_df.drop(['Rank', 'Country/Territory', 'Capital', 'Continent'], axis =1)
 P1_df=P1_df.drop(['ID', 'Games','Height', 'Weight', 'Team'], axis =1)
 
 # drop olympians that didnt medal
 P1_df.dropna(subset = ['Medal'], inplace=True)
-P1_df.head()
+#P1_df.head()
 
 # rename columns
 P2_df.rename(columns = {'CCA3':'NOC'}, inplace = True)
-
-#identify NOC that is not the same
-P1_df[P1_df['df1']['NOC'].isin(P2_df['df2']['NOC'])]
-
 
 # converting to number
 #year=1960
@@ -49,6 +45,10 @@ P1_df[P1_df['df1']['NOC'].isin(P2_df['df2']['NOC'])]
 
 #num_of_rows = P1_df.shape
 #print(num_of_rows)
+
+#identify NOC that is not the same
+#P1_df[P1_df['df1']['NOC'].isin(P2_df['df2']['NOC'])]
+
 
 # merge data sets
 

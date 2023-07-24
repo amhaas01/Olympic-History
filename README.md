@@ -3,7 +3,7 @@ An analysis of the last 120 Years of the Olympics. This project will explore the
 
 ## Data Sources
 - https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results 
-- https://www.kaggle.com/datasets/fredericksalazar/population-world-since-1960-to-2021?resource=download 
+- https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset 
 
 ## Definitions
 - ID - Unique number for each athlete
