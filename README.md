@@ -1,5 +1,5 @@
 # Olympic-History
-An analysis of the last 120 Years of the Olympics. This project will explore the most medals per country while associating per capita. In addition, the project dives into the ratio of medals based on sport throughout the past 120 years. The project also explores the top Olympians in Summer & Winter. Furthmore Matplotlib is used to visulize this analyization. 
+An analysis of the last 120 Years of the Olympics. This project will explore the most medals per country. In addition, the project dives into the mean age of Olympians from 1998-2016. The project also explores the top populated countries. Furthermore, Seaborn/Matplotlib is used to visualize this analyzation. 
 
 ## Data Sources
 - https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results 
@@ -39,28 +39,29 @@ An analysis of the last 120 Years of the Olympics. This project will explore the
 - World Population Percentage: The population percentage by each Country/Territories
 
 
-## Clean Data
-
-Requirements
+## Requirements
 
 - Python 3.11.1
 - Jupyter
 - Pandas
 - Numpy
-- lambdas
-- SQL
 - Matplotlib
 - Seaborn
 
 ## Instructions
-- Python file 'clean.py' run command 'python clean.py'
+- Python file 'clean.py' 
+    - Run command 'python clean.py' in command line
 - Jupyter notebook file 'analyze.ipynb' run all cells 
 
-# Challenges
+## Challenges (Requirements)
 
-1. Read in data from a local csv
-2. Remove unneeded columns 
-3. Replace missing data (NaN) with (-)
-4. Combine data from data sets with SQL
-5. Markdown files in Jupyter
-6. Visualize data via Matplotlib 
+-	Read Two data files (CSV)
+-	Cleaned data and performed a pandas merge with 2 data sets, calculated new values based on new data set
+-	3 seaborn/matplotlib visualizations
+-	Virtual Environment:
+    - Python -m venv venv
+    - cd venv
+    - cd Scripts
+    - . activate
+-	Markdown cells in Jupyter Notebook
+
